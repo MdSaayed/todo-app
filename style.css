@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* container style */
+.container{
+    background: #000;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    background: #c2c2c225;
+    padding: 1rem 1rem;
+    border-radius: 3px;
+    overflow: auto;
+    scrollbar-width: thin; /* for Firefox */
+    scrollbar-color: transparent transparent; /* for Firefox */
+    -ms-overflow-style: none; /* for Internet Explorer and Edge */
+    scrollbar-width: thin; /* for Internet Explorer and Edge */
+    scrollbar-color: transparent transparent; /* for Internet Explorer and Edge */
+    margin-right: -6px; /* adjust the value to match the scrollbar width */
+  }
+  
+  .card::-webkit-scrollbar {
+    width: 6px; /* adjust as needed */
+  }
+  
+  .card::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .card::-webkit-scrollbar-thumb {
+    background-color: #ffffff21;
+  }
+  
+.card-title{
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+#todo-input{
+    width: 68%;
+    border: none;
+    border-radius: 1px;
+    padding: 0.35rem;
+}
+input:focus {
+    outline: none;
+  }
+  
+#add-todo-btn{
+    padding: 0.41rem 1rem;
+    width: 30%;
+    background: #0003ad;
+    border: none;
+    border-radius: 1px;
+    color: #fff;
+}
+#add-todo-btn:hover{
+    background: #0003adc9;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #0200008a;
+    padding: 0.4rem;
+    border-radius: 1px;
+    margin: 1rem 0;
+}
+.fa-trash-can{
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.fa-trash-can:hover{
+    color: #8b0404;
+}
+
+
+
+
+
+
+
+
+
+
